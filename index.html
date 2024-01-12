@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Calculadora de Gorgetas">
+  <meta name="keywords" content="javaScript, html, css">
+  <meta name="author" content="Josué Ocanha Costa">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+
+<body>
+  <main class="container">
+    <img src="./assets/images/splitter.svg" alt="Logo do aplicativo" class="logo">
+    <section class="container-card">
+      <div class="card-inputs">
+
+        <div class="content-inputs price">
+          <div class="content-labels">
+            <label for="price">Valor da Conta</label>
+          </div>
+          <input type="text" id="bill-input" class="inputs bill-input">
+        </div>
+
+        <div class="content-buttons">
+          <label for="buttons" class="title">Selecione a gorgeta %</label>
+          <div class="buttons tip">
+            <button class="btn tips">5%</button>
+            <button class="btn tips">10%</button>
+            <button class="btn tips">15%</button>
+            <button class="btn tips">25%</button>
+            <button class="btn tips">50%</button>
+            <input type="text" placeholder="Customize" class="btn-input tip-custom" maxlength="2" id="tif-custom">
+          </div>
+        </div>
+
+        <div class="content-inputs people">
+          <div class="content-labels">
+            <label for="price">Numero de Pessoas</label>
+            <span class="span" id="alert-zero">Can't be Zero</span>
+          </div>
+          <input type="text" id="price" class="inputs people-input">
+        </div>
+
+      </div>
+
+      <div class="card-data">
+        <div class="content-tip">
+          <div class="tip person">
+            <div class="item-text">
+              <p class="text">Total Gorgeta</p>
+              <span class="subtext">/ Pessoa</span>
+            </div>
+            <span class="price-for-person amount" id="tip-amount">$4.27</span>
+          </div>
+
+          <div class="tip total">
+            <div class="item-text">
+              <p class="text">Total Conta</p>
+              <span class="subtext">/ Pessoa</span>
+            </div>
+            <span class="price-for-person amount" id="total-amount">$32.79</span>
+          </div>
+
+          <button class="btn-reset">RESET</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script type="text/javaScript" src="./assets/scripts/index.js"></script>
+
+</body>
+
+</html>
