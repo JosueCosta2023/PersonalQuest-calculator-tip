@@ -1,40 +1,33 @@
  # PersonalQuest - Desafio frontEndMentor
 ## Quest - Fip Calculator / Calculadora de Gorgetas
-##Projeto Final Módulo JavaScript Avançado
-### [Deploy](https://josuecosta2023.github.io/DevQuest-Quest-fetch-github-api/)
 
-# Desafio: Realizar conexão com API do github
+### [Deploy](https://josuecosta2023.github.io/PersonalQuest-calculator-tip/)
+
+## [FrontEndMentor-Desafio](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX)
+
+# Desafio: 
+Seu desafio é construir este aplicativo de calculadora de gorjetas e fazer com que pareça o mais próximo possível do design.
 ## Objetivos:
-* Permitir pesquisa de usuários do github
-* Obter e exibir dados de:
-    * Nome
-    * Foto de perfil
-    * Descrição de biografia
-    * Seguindo e Seguidores
-    * Os 10 ultimos eventos e contribuições realizadas pelo usuário
-    * Forks
-    * Estrelas
-    * Whatchers 
-    * Linguagens de programação do repositório
-* Código deve ser padronizado e limpo
-    * Utilize refatoração
+* Calcular Valor de conta divido por pessoas
+* Calcular Valor de gorgeta divido por pessoas
+* Sistema dev ser adaptavel a qualquuer dispositivo.
 
 ## Maior dificuldade:
-* Refatoração
-* Conexão com API
-* Logica de programação
+* Lógica de programção
+* Montar função de calculo
 
 ## O que aprendi?
-* Neste projeto aprendi que as veses a solução é mais simples do que imaginamos, normalmente costumo pensar em soluções complexas para problemas aparentemente simples. Durante o todo o processo de desenvolvimento deste sistema pude ver a solução por uma perspequitiva mais simples e obtive exito no desenvolvimento sem muita dor de cabeça.
-
-* Em termos de JavaScript, utilizei o INNERHTML e FUNÇÕES com mais frequência e agora me sinto mais familiarizado com a linguagem. 
+* Neste projeto aprendi a utilizar o evento 'input' do addEventListener,
+tive muita dificuldade mas agora estou seguro para aplica-lo em qualquer outro projeto.
+* No inicio do projeto iniciei a lógica com muita complexidade mas aos poucos aperfeçoei e consegui relizar fazendo por partes, agora me sinto com o pensamento um pouco mais sistêmico. 
+* Após conseguir exibir os dados, me senti livre para alterar um pouco o layout de exibição do valores.
 
 ### Screenshots
 #### Visualização Desktop
-![Desktop](./src/archives/desktop.gif)
+![Desktop](./design/desktop-design-completed.jpg)
 
 #### Visualização Mobile
-![Mobile](./src/archives/mobile.gif)
+![Mobile](./design/mobile-design.jpg)
 
 
 # Author
