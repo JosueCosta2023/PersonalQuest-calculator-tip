@@ -2,6 +2,7 @@ const billInput = document.querySelector(".bill-input")
 const peopleInput = document.querySelector(".people-input")
 const tipPerPerson = document.getElementById("tip-amount")
 const totalPerPerson = document.getElementById("total-amount")
+const totalPerGroup = document.getElementById("total-amount-geral")
 const tips = document.querySelectorAll(".tips")
 const tipCustom = document.querySelector(".tip-custom")
 const resetBtn = document.querySelector(".btn-reset")
@@ -23,10 +24,11 @@ billInput.value = '0.0';
 peopleInput.value = '1';
 tipPerPerson.innerHTML = "$" + (0.0).toFixed(2)
 totalPerPerson.innerHTML = "$" + (0.0).toFixed(2)
+totalPerGroup.innerHTML = "$" + (0.0).toFixed(2)
 
 let billValue = 0.0
 let peopleValue = 1
-let tipValue = 0.15
+let tipValue = 0.00
 
 
 function billInputFun(){
@@ -71,9 +73,12 @@ function handleClick(event){
 function calculatorTip(){
     if(peopleValue >= 1){
         let tipAmount = (billValue * tipValue) / peopleValue
-        let total = (billValue + tipAmount) / peopleValue
+        let tipAmountTotal = billValue * tipValue 
+        let total = (billValue + tipAmountTotal) / peopleValue
+        let totalPerGroupValue = tipAmountTotal + billValue
         tipPerPerson.innerHTML = "$" + tipAmount.toFixed(2)
         totalPerPerson.innerHTML = "$" + total.toFixed(2)
+        totalPerGroup.innerHTML = "$" + totalPerGroupValue.toFixed(2)
     } 
 }
 
