@@ -10,17 +10,17 @@ Seu desafio é construir este aplicativo de calculadora de gorjetas e fazer com 
 ## Objetivos:
 * Calcular Valor de conta divido por pessoas
 * Calcular Valor de gorgeta divido por pessoas
-* Sistema dev ser adaptavel a qualquuer dispositivo.
+* Sistema deve ser adaptavel a qualquuer dispositivo.
 
 ## Maior dificuldade:
-* Lógica de programção
-* Montar função de calculo
+* Lógica de programação
+* Montar função de cálculo
 
 ## O que aprendi?
 * Neste projeto aprendi a utilizar o evento 'input' do addEventListener,
 tive muita dificuldade mas agora estou seguro para aplica-lo em qualquer outro projeto.
-* No inicio do projeto iniciei a lógica com muita complexidade mas aos poucos aperfeçoei e consegui relizar fazendo por partes, agora me sinto com o pensamento um pouco mais sistêmico. 
-* Após conseguir exibir os dados, me senti livre para alterar um pouco o layout de exibição do valores.
+* No início do projeto construi a lógica com muita complexidade mas aos poucos aperfeçoei e consegui realizar dividindo a construção por partes, agora me sinto com o pensamento um pouco mais sistêmico. 
+* Após conseguir exibir os dados, me senti livre para alterar o layout de exibição do valores.
 
 ### Screenshots
 #### Visualização Desktop
