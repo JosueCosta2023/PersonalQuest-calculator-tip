@@ -10,7 +10,7 @@ Seu desafio é construir este aplicativo de calculadora de gorjetas e fazer com 
 ## Objetivos:
 * Calcular Valor de conta divido por pessoas
 * Calcular Valor de gorgeta divido por pessoas
-* Sistema deve ser adaptavel a qualquuer dispositivo.
+* Sistema deve ser adaptavel a qualquer dispositivo.
 
 ## Maior dificuldade:
 * Lógica de programação
