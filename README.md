@@ -1,5 +1,5 @@
  # PersonalQuest - Desafio frontEndMentor
-## Quest - Fip Calculator / Calculadora de Gorgetas
+## Quest - Fip Calculator / Calculadora de Gorjetas
 
 ### [Deploy](https://josuecosta2023.github.io/PersonalQuest-calculator-tip/)
 
@@ -9,7 +9,7 @@
 Seu desafio é construir este aplicativo de calculadora de gorjetas e fazer com que pareça o mais próximo possível do design.
 ## Objetivos:
 * Calcular Valor de conta divido por pessoas
-* Calcular Valor de gorgeta divido por pessoas
+* Calcular Valor de gorjeta divido por pessoas
 * Sistema deve ser adaptavel a qualquer dispositivo.
 
 ## Maior dificuldade:
